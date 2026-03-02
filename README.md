@@ -35,6 +35,7 @@ Then open `http://localhost:3000`.
 This project is configured for GitHub Pages static hosting:
 
 - `next.config.ts` uses `output: "export"` (build output in `out/`)
+- Uses `NEXT_PUBLIC_BASE_PATH` during CI so assets load under `/www`
 - `.github/workflows/deploy-github-pages.yml` deploys automatically on pushes to `main`
 - `public/CNAME` is set to `keeganbailey.com`
 
