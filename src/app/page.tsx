@@ -13,10 +13,6 @@ export default function Home() {
         My background includes Xamarin and MAUI, and I now primarily build with
         AvaloniaUI.
       </p>
-      <p className="mt-3 max-w-3xl text-base text-zinc-600">
-        LinkedIn currently lists me as a Xamarin/MAUI Developer at Mobilearth.
-      </p>
-
       <div className="mt-6 flex flex-wrap gap-3">
         <a
           href="https://www.linkedin.com/in/keegan-bailey-b2463426/"
